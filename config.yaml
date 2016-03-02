@@ -1,0 +1,15 @@
+options:
+  install_repository:
+     type: string
+     default: "deb https://archive.serverdensity.com/trusty/ all main"
+     description: Server Density PPA
+  install_keys:
+     type: string
+     default: "74371316"
+     description: Server density ppa GPG KEY
+  sd_account:
+     type: string
+     default:
+  sd_apitoken:
+     type: string
+     default:

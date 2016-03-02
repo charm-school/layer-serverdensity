@@ -1,0 +1,9 @@
+name: serverdensity
+summary: deploys the serverdensity agent to monitor your services
+description: see summary
+maintainer: you@somewhere.com
+subordinate: true
+requires:
+   device:
+     interface: juju-info
+     scope: container
