@@ -13,3 +13,10 @@ options:
   sd_apitoken:
      type: string
      default:
+  log_level:
+     type: string
+     default: INFO
+  plugin_directory:
+     type: string
+     default:
+
